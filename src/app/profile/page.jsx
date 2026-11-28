@@ -10,19 +10,21 @@ export default function Profile() {
       <p>Profile</p>
 
       <img
-        src="memes.png"
+        src="memess.png"
         alt="Profile"
-        className="w-24 h-24 rounded-full mb-4 border-2 border-gray-500 shadow-md"
+        className="w-24 h-24 rounded-full mb-4 border-2 border-pink-500 shadow-md"
       />
 
-      <p className="text-xl font-lightbold mb-1">Hannah Mycah Bernaldez</p>
+      <p className="text-xl text-pink-500 font-lightbold mb-1">
+        Hannah Mycah Bernaldez
+      </p>
 
       <p className="text-sm text-gray-600 mb-4">
         You have successfully logged in.
       </p>
 
       <button
-        className="bg-blue-500 hover:cursor-pointer text-white py-2 px-2 rounded-md"
+        className="bg-pink-500 hover:cursor-pointer text-white py-2 px-2 rounded-md"
         onClick={() => router.back()}
       >
         Back to Login

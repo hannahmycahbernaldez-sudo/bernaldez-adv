@@ -6,8 +6,8 @@ import { useState } from "react";
 export default function Login() {
   const router = useRouter();
 
-  const myUsername = "Hannah Mycah";
-  const myPassword = "081806";
+  const myUsername = "Hannah";
+  const myPassword = "12345678";
 
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
@@ -40,18 +40,18 @@ export default function Login() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center">
       <div className="flex flex-col gap-4 items-center justify-center bg-pink-100 border border-gray-200 py-4 px-6 rounded-lg shadow-md">
-        <p className="text-2xl font-bold">Login</p>
+        <p className="text-2xl text-pink-500 font-bold">Login</p>
 
         <div className="flex flex-col gap-2">
           <input
-            className="border border-gray-300 rounded-md py-2 px-4"
+            className="border border-pink-300 rounded-md py-2 px-4"
             placeholder="Username"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
           />
 
           <input
-            className="border border-gray-300 rounded-md py-2 px-4"
+            className="border border-pink-300 rounded-md py-2 px-4"
             placeholder="Password"
             type={showPassword ? "text" : "password"}
             value={password}
@@ -71,7 +71,7 @@ export default function Login() {
         {error && <p className="text-red-500">{error}</p>}
 
         <button
-          className="hover:cursor-pointer bg-blue-500 text-white font-bold py-2 px-4 rounded-md"
+          className="hover:cursor-pointer bg-pink-500 text-white font-bold py-2 px-4 rounded-md"
           onClick={handleLogin}
         >
           Login
