@@ -40,7 +40,7 @@ export default function Login() {
   return (
     <div className="flex min-h-screen flex-col items-center justify-center">
       <div className="flex flex-col gap-4 items-center justify-center bg-pink-100 border border-gray-200 py-4 px-6 rounded-lg shadow-md">
-        <p className="text-2xl text-pink-500 font-bold">Login</p>
+        <p className="text-2xl text-pink-600 font-bold">Login</p>
 
         <div className="flex flex-col gap-2">
           <input

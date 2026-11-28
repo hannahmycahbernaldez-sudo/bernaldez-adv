@@ -10,7 +10,7 @@ export default function Profile() {
       <p>Profile</p>
 
       <img
-        src="memess.png"
+        src="ha.png"
         alt="Profile"
         className="w-24 h-24 rounded-full mb-4 border-2 border-pink-500 shadow-md"
       />
